@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Andrew O'Connor
+  email = andrewoconnor@outlook.com
+[color]
+  ui = true
+[core]
+  editor = /opt/homebrew/bin/nvim
