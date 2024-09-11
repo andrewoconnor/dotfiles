@@ -1,0 +1,30 @@
+import = [
+    "~/.config/alacritty/themes/tokyonight.toml",
+]
+
+live_config_reload = true
+
+[font]
+size = 16.0
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[window]
+decorations = "Buttonless"
+option_as_alt = "Both"
+
+[window.dimensions]
+columns = 120
+lines = 36
+
+[window.padding]
+x = 15
+y = 15
