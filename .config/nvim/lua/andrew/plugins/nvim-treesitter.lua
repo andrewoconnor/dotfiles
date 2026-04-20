@@ -1,9 +1,13 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "main",
   build = ":TSUpdate",
   event = { "BufReadPre", "BufNewFile" },
+  opts = {
+    prefer_git = true,
+  },
   config = function()
-    local treesitter = require("nvim-treesitter.configs")
+    local treesitter = require("nvim-treesitter.config")
 
     -- configure treesitter
     treesitter.setup({ -- enable syntax highlighting
